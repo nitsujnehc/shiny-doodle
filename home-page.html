@@ -9,7 +9,14 @@
   <body>
     <h1>HTML Run!!!!!</h1>
     <script src="https://raw.githubusercontent.com/processing-js/processing-js/v1.4.8/processing.js">
-      
+    	var tank = function(x, y, c, a, s) {
+				pushMatrix();
+        fill(100, 100, 100);
+				
+				fill(c);
+        ellipse(0, 0, s, s);
+				popMatrix();
+      };
     </script>
   </body>
 </html>
